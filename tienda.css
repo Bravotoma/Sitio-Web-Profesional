@@ -1,0 +1,93 @@
+.content{
+    display: flex;
+    height: 100%;
+    background-color: #533e2d;
+    border-radius: 40px;
+    width: 100%;
+    max-width: 1060px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.alimentos{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.alimentos img{
+    display: flex;
+    width: 500px;
+    padding: 40px;
+}
+
+.alimentos p{
+    color: #FFF;
+    font-style: italic;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.juguetes{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.juguetes img{
+    display: flex;
+    width: 500px;
+    padding: 40px;
+    height: 300px;
+}
+
+.juguetes p{
+    color: #FFF;
+    font-style: italic;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.premios{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.premios img{
+    display: flex;
+    width: 500px;
+    padding: 40px;
+    height: 300px;
+}
+
+.premios p{
+    color: #FFF;
+    font-style: italic;
+    padding: 10px;
+    font-size: 40px;
+}
+
+
+.precios{
+    display: flex;
+    justify-content: center;
+    background-color: #B88B4A;
+    border-radius: 100px;
+    width: 100%;
+    max-width: 1060px;
+
+    color: #FFF;
+    font-style: italic;
+    padding: 10px;
+    font-size: 30px;
+}
