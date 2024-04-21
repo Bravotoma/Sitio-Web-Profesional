@@ -5,7 +5,7 @@
     background-color: #533e2d;
     border-radius: 40px;
     width: 100%;
-    max-width: 1060px;
+    margin: auto;
     flex-direction: column;
     align-items: center;
 }
@@ -69,4 +69,32 @@
     height: 400px;
 }
 
-@media screen and (max-width:800px)
+@media screen and (max-width:800px){
+
+    .content{
+        width: 100%;
+        margin: auto;
+        box-sizing: border-box;
+    }
+
+    .baño_raza_grande{
+        flex-direction: column;
+        width: 90%;
+
+    }
+
+    .baño_raza_grande img{
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .baño_raza_chica{
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .baño_raza_chica img{
+        width: 95%;
+    }
+
+}
