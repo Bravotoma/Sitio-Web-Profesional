@@ -1,10 +1,11 @@
 .header {
     max-width: 1000px;
-    height: 100%auto;
+    height: 100%;
     flex-shrink: 0;
     display: flex;
     flex-direction: column;
 }
+
 
 .titulo {
     color: #533E2D;
@@ -30,6 +31,8 @@
     border-radius: 50%;
     overflow: hidden;
     margin-bottom: 40px;
+    background-image: url('Imagenes/logo.jpg');
+    background-size: cover;
 }
 
 .navbar {
@@ -58,6 +61,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    max-width: 1000px;
 }
 
 
@@ -118,7 +123,6 @@ span {
     max-height: 300px;
     padding: 0 100px;
     border: solid 5px #533E2D;
-    
 
 }
 
@@ -171,7 +175,7 @@ span {
     padding: 30px;
     display: flex;
     align-items: flex-end;
-    background-position: 0 25%;
+    background-position: center 25%;
 
 }
 
@@ -182,7 +186,7 @@ span {
     width: 100%;
     max-width: 1000px;
     flex-grow: 1;
-    gap: 680px;
+    align-content: space-around;
     
 
 }
@@ -191,11 +195,75 @@ span {
     display: flex;
     height: 100px;
     width: 200px;
-    justify-content: end;
 }
 
 .credito_texto{
     display: flex;
     align-items: center;
+
+}
+
+@media screen and (max-width:800px){
+    
+    .header{
+        flex-direction: column;
+    }
+    
+    .header-row{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .logo{
+        flex-direction: column;
+        width: 100px;
+        height: 100px;
+        
+    }
+
+    .navbar{
+        flex-direction: column;
+        gap: 10px;
+        font-size: 30px;
+
+    }
+
+    .medio{
+        flex-direction: column;
+    }
+
+    .fotomidinicio{
+        width: 100%;
+    }
+
+    .rectangulo_footer{
+        flex-direction: column;
+
+        height: 100%;
+        width: 100%;
+        max-height: 450px;
+        align-items: center;
+
+    }
+
+    .body{
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .gatob{
+        height: 700px;
+        width: 100%;
+        max-width: 500px;
+        background-size: cover;
+    }
+
+    .creditos{
+        max-width: 400px;
+        width: 100%;
+        align-items: center;
+        
+    }
 
 }
