@@ -7,6 +7,7 @@
 }
 
 
+
 .titulo {
     color: #533E2D;
     text-align: center;
@@ -57,7 +58,7 @@
 
 
 body {
-    background-color: #f0ffce;
+    background-color: #cfe2ff;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -216,6 +217,7 @@ span {
         
     }
 
+   
     .logo{
         flex-direction: column;
         width: 100px;
@@ -224,12 +226,15 @@ span {
     }
 
     .navbar{
+        display: flex;
         flex-direction: column;
         gap: 10px;
         font-size: 30px;
         flex-shrink: 1;
-
+        
     }
+ 
+    
 
     .medio{
         flex-direction: column;
