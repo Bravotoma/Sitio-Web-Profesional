@@ -1,6 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
   showCookieAlert();
   keepDarkMode();
+  highlightActiveLink();
+
 });
 
 function showCookieAlert() {
@@ -46,5 +48,24 @@ function keepDarkMode() {
     });
     btnSwitch.classList.add('active');
     btnSwitch.checked = true; // Ensure the checkbox is checked
+  }
+}
+
+
+function highlightActiveLink() {
+  const path = window.location.pathname.split('/').pop();
+  const linkMap = {
+    'cortes.html': 'cortes-link',
+    'retoques.html': 'retoques-link',
+    'baños.html': 'banos-link',
+    'tienda.html': 'tienda-link'
+  };
+
+  for (const key in linkMap) {
+    if (path === key) {
+      document.getElementById(linkMap[key]).classList.add('active');
+    } else {
+      document.getElementById(linkMap[key]).classList.remove('active');
+    }
   }
 }

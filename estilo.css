@@ -53,6 +53,8 @@
     
 }
 
+
+
 .navbar a {
     color: #242331;
     text-decoration: none;
@@ -64,6 +66,9 @@
   color: #fff;
 }
 
+.navbar a.active {
+    text-decoration: underline;
+}
 
 body {
     background-color: #cfe2ff;
