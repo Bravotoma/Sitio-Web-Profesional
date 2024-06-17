@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="estilo.css">
     <link rel="website icon" type="jpg" href="Imagenes/logo.jpg">
 
+    <script
+  src="https://code.jquery.com/jquery-3.7.1.js"
+  integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+  crossorigin="anonymous"></script>
+
+
 </head>
 
 <body>
@@ -79,11 +85,36 @@
 
             <div class="redessociales">
                 <p>¡Contactanos!</p>
-                <br>
-                <p>Instagram:Breed&Shears_</p>
-                <p>Twitter:Breed&shears_</p>
-                <p>Telefono: 1126163555</p>
+                
+                <form>
+                    
+                    <div class="input-group">
+                        
+                        <input type="text" name="name" id="name" placeholder="Nombre">
+
+                        
+                        <input type="text" name="surname" id="surname" placeholder="Apellido">
+
+                        
+                        <input type="text" name="Email" id="Email" placeholder="Email">
+
+                        <textarea type="text" name="dudas" id="dudas" cols="30" rows="5" placeholder="Tu Mensaje..."></textarea>
+
+                        <input class="Sendbtn" type="submit" value="Enviar">
+
+
+                        <input type="hidden" name="_next" value="https://bravotoma.github.io/Sitio-Web-Profesional/">
+
+                        <input type="hidden" name="_captcha" value="false">
+
+                    </div>
+
+
+
+                </form>                
+
             </div>
+
 
 
             <div class="mapayub">

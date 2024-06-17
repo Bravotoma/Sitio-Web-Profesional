@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   showCookieAlert();
   keepDarkMode();
-  highlightActiveLink();
+
 
 });
 
@@ -69,3 +69,4 @@ function highlightActiveLink() {
     }
   }
 }
+
